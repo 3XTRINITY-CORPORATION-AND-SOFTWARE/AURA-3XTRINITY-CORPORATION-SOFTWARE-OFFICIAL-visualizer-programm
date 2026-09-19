@@ -1,8 +1,5 @@
-# AURA — Android surface
+# AURA Android
 
-Mobile / store packaging for AURA (Capacitor or equivalent — later).
+**Status: stub — not started.**
 
-**Status:** stub — not yet scaffolded.  
-**Intent:** wrap the web visualizer for Android; share modes and honesty caps with web/OS.
-
-Until Capacitor (or similar) is added, use the web PWA from the repo root.
+A Capacitor/Android surface may be added later. No Android project, package ID, store listing, or native implementation is claimed by this placeholder.

@@ -1,13 +1,11 @@
-# AURA — Web surface
+# AURA Web / PWA
 
-Browser / PWA entry for AURA.
+**Status: current lean hub.**
 
-**Canonical app:** repository root (`index.html`, `src/`, `vite.config.ts`, `vercel.json`).  
-This directory is the **program surface doc**; do not duplicate the Vite app here.
+The AURA web/PWA surface is the lean hub at [`trinitywayve-aura/`](../../trinitywayve-aura/). Its source is synced from `/workspace/trinitywayve-aura` while excluding local `node_modules/` and `dist/` outputs.
 
-```bash
-# from repo root
-npm install && npm run build
-```
+- Live today: https://trinitywayve-aura.vercel.app
+- Target alias: https://aura-3xtrinity.vercel.app
+- `aura.vercel.app` is **not** a target (`DEPLOYMENT_DISABLED`).
 
-Deploy target: **`aura-3xtrinity`** (not `aura.vercel.app`).
+Do not deploy from this change; deployment remains with the Deploy Captain after an explicit GO.
