@@ -1,5 +1,14 @@
-# Aura Visualizer — TrinityWayve
+# Aura — TrinityWayve
 
-Lean TrinityWayve marketing + demo shell. Build: `npm install && npm run build && npm run pack`.
+Lean marketing + demo shell for the lab visualizer.
 
-This directory is the Vercel demo shell for https://trinitywayve-aura.vercel.app.
+**Copy:** Aura · Lab visualizer · caps · modes · CTA **Arm stage**  
+**Modes:** bars · ring · wave · bloom (simulated spectrum, no mic)  
+**Honesty:** Browser caps disclosed (dpr / canvas / audioCtx probe)  
+**Footer lock:** `STATUS: OMNI-SOVEREIGN` + `| DEMO SHELL`
+
+```bash
+npm install && npm run build && npm run pack
+```
+
+Vercel target: https://trinitywayve-aura.vercel.app
