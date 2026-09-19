@@ -1,7 +1,8 @@
-# AURA OS
+# AURA — OS surface
 
-**Status: stub — not built.**
+Desktop / overlay shell for the AURA visualizer (synced presence with STEEL).
 
-The AURA OS surface is a future native/host desktop overlay target. It is intended to stay synchronized with the STEEL desktop overlay surfaces, but no native host, package, or sync implementation is included here yet.
+**Status:** stub — not yet shipped as a native shell.  
+**Intent:** always-on or pinned overlay (Windows/macOS/Linux later); shares the same visual modes as web (bars · ring · wave · bloom).
 
-This folder contains documentation only; it does not modify or absorb the STEEL program. See the workspace [SEPARATION-PLAN.md](../../../../program-split/SEPARATION-PLAN.md) for the ownership and surface boundaries.
+Canonical web implementation lives at the **repo root** (`src/`, lean Vite). This folder documents the OS product surface only until a native host is added. It does not modify or absorb the STEEL program.
