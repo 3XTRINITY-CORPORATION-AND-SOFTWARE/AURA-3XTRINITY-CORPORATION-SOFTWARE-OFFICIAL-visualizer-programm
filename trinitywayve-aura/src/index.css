@@ -20,3 +20,15 @@ body { background: #050505; color: #fff; font-family: var(--font-sans); margin: 
     linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
   background-size: 48px 48px;
 }
+.chip {
+  display: inline-block;
+  border: 1px solid #1a1a1a;
+  border-radius: 0.25rem;
+  padding: 0.15rem 0.4rem;
+  color: rgba(255, 255, 255, 0.55);
+  background: rgba(0, 0, 0, 0.45);
+}
+.color-chip:focus-visible {
+  outline: 1px solid #A855F7;
+  outline-offset: 2px;
+}
